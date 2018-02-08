@@ -22,4 +22,5 @@ Berksfile.lock
 Policyfile.lock.json
 
 # Custom
-recipes/
+recipes/default.rb
+recipes
