@@ -15,7 +15,8 @@ You can predefine a peer upon creation by specifying a :peer property.
 
 Usage:
 
-```weave_net_node "master" do
+```
+weave_net_node "master" do
   action [:create, :start, :stop]
   peer hostname.tld
 end
