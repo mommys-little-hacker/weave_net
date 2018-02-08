@@ -1,11 +1,12 @@
 name 'weave_net'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures weave_net'
-long_description 'Installs/Configures weave_net'
-version '0.1.0'
+maintainer 'Maxim Vasilev'
+maintainer_email 'admin@qwertys.ru'
+license 'Public domain'
+description 'Installs Weave Net on docker host'
+long_description 'Installs Weave Net on docker host.'
+version '0.1.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+depends 'docker'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
